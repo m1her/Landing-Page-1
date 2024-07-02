@@ -7,10 +7,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import { BoldSVG } from "../Shapes/boldSVG";
-import { EmptySVG } from "../Shapes/emptySVG";
-import { ShadowSVG } from "../Shapes/shadowSVG";
-import { HighliterSVG } from "../Shapes/highliterSVG";
+import { BoldSVG } from "../../components/Shapes/boldSVG";
+import { EmptySVG } from "../../components/Shapes/emptySVG";
+import { ShadowSVG } from "../../components/Shapes/shadowSVG";
 
 export const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -79,7 +78,6 @@ export const Header = () => {
               READ THE DOCS
             </div>
           </div>
-          {/* <HighliterSVG /> */}
         </div>
         <div className="relative">
           <BoldSVG />
@@ -87,7 +85,7 @@ export const Header = () => {
           <EmptySVG />
         </div>
       </div>
-      <div className="absolute bottom-0 shapedividers_com-2451 w-full h-20"></div>
+      <div className="shapedividers_com-2451 w-full h-20 bottom-0 !absolute"></div>
     </div>
   );
 };
