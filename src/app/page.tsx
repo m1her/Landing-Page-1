@@ -1,12 +1,19 @@
-import Image from "next/image";
 import { Header } from "./features/Header";
-import { Body } from "./features/Body";
+import { How } from "./features/How";
+import { What } from "./features/What";
+import { Features } from "./features/Features";
+import { Pricing } from "./features/Pricing";
+import { Footer } from "./features/Footer";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <Body />
+      <How />
+      <What />
+      <Features />
+      <Pricing />
+      <Footer />
     </div>
   );
 }

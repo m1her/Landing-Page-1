@@ -15,7 +15,7 @@ export const Header = () => {
   const [menu, setMenu] = useState(false);
   return (
     <div className="min-h-screen overflow-hidden w-full bg-gradient-to-br from-sky-300 to-blue-800 relative">
-      <nav className="sm:flex md:py-12 md:px-32 sm:py-8 sm:px-20 py-8 px-12 justify-between items-center relative">
+      <nav className="sm:flex md:py-12 sm:py-8 lg:px-32 sm:px-20 py-8 px-12 justify-between items-center relative">
         <div
           className="sm:hidden text-xl font-bold text-white flex gap-x-3 items-center cursor-pointer w-fit"
           onClick={() => setMenu((prev) => !prev)}
@@ -61,9 +61,9 @@ export const Header = () => {
         </div>
       </nav>
 
-      <div className="md:grid flex flex-col grid-cols-2 md:mt-8 mt-4 md:py-12 md:px-32 sm:py-8 sm:px-20 py-8 px-12 lg:gap-x-32 gap-x-14">
+      <div className="md:grid flex flex-col grid-cols-2 md:h-screen md:mt-8 mt-4 md:py-12 lg:px-32 sm:py-8 md:px-20 py-8 px-12 lg:gap-x-32 gap-x-14">
         <div className="flex flex-col gap-y-10 relative">
-          <div className="md:text-5xl text-2xl font-bold text-white ">
+          <div className="lg:text-5xl md:text-[40px] text-2xl font-bold text-white ">
             Build better models. Easier. Together.
           </div>
           <div className="md:text-base text-sm text-white/80 font-light">
@@ -74,7 +74,7 @@ export const Header = () => {
             <div className="md:px-6 md:py-3 px-4 py-2 bg-white text-blue-700 hover:bg-white/60 hover:text-blue-700 rounded-md md:text-sm text-xs md:font-semibold font-medium cursor-pointer transition-colors duration-300">
               START FOR FREE
             </div>
-            <div className="md:px-6 md:py-3 px-4 py-2 border border-white text-white hover:bg-white/60 hover:text-blue-700 rounded-md md:text-sm text-xs md:font-semibold font-medium cursor-pointer transition-colors duration-300">
+            <div className="md:px-6 md:py-3 px-4 py-2 border border-white text-white hover:border-white/30 hover:bg-white/60 hover:text-blue-700 rounded-md md:text-sm text-xs md:font-semibold font-medium cursor-pointer transition-colors duration-300">
               READ THE DOCS
             </div>
           </div>
@@ -85,7 +85,7 @@ export const Header = () => {
           <EmptySVG />
         </div>
       </div>
-      <div className="shapedividers_com-2451 w-full h-20 bottom-0 !absolute"></div>
+      <div className="shapedividers_com-2451 w-full h-24 bottom-0 !absolute"></div>
     </div>
   );
 };

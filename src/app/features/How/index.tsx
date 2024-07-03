@@ -4,12 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
 
-export const Body = () => {
+export const How = () => {
   return (
     <div
       className="overflow-hidden bg-white w-full min-h-screen md:grid grid-cols-2 flex flex-col items-center lg:gap-x-20 gap-x-8 md:gap-y-8 gap-y-6 py-20
-    lg:px-48 md:px-32 px-20 relative
-    "
+    lg:px-32 px-20 relative"
     >
       <div className="flex flex-col items-start md:gap-y-8 gap-y-4">
         <div className="md:w-8 w-6 text-green-300 bg-[#f4fff8] shadow shadow-green-300/20 rounded-full aspect-square flex justify-center items-center">
@@ -26,10 +25,10 @@ export const Body = () => {
         </div>
       </div>
       <div className="md:w-full w-[350px] aspect-square relative">
-        <Image src="/img1.jpg" alt={""} fill />
+        <Image src="/img1.png" alt={""} fill />
       </div>
       <div className="md:w-full w-[350px] aspect-square relative md:order-3 order-4">
-        <Image src="/img2.jpg" alt={""} fill />
+        <Image src="/img2.png" alt={""} fill />
       </div>
       <div className="flex flex-col items-start md:gap-y-8 gap-y-4">
         <div className="md:w-8 w-6 text-blue-300 bg-[#dff0fd] shadow shadow-blue-300/20 rounded-full aspect-square flex justify-center items-center">
