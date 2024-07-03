@@ -11,7 +11,7 @@ export const How = () => {
     lg:px-32 px-20 relative"
     >
       <div className="flex flex-col items-start md:gap-y-8 gap-y-4">
-        <div className="md:w-8 w-6 text-green-300 bg-[#f4fff8] shadow shadow-green-300/20 rounded-full aspect-square flex justify-center items-center">
+        <div className="md:w-8 w-6 text-green-300 bg-gradient-to-tr from-[#c6f8d8] to-[#f5fef8] shadow shadow-green-300/20 rounded-full aspect-square flex justify-center items-center">
           <FontAwesomeIcon icon={faPlay} className="md:w-2 w-1.5" />
         </div>
         <div className="md:text-4xl text-2xl font-bold text-[#272767]">
@@ -30,8 +30,8 @@ export const How = () => {
       <div className="md:w-full w-[350px] aspect-square relative md:order-3 order-4">
         <Image src="/img2.png" alt={""} fill />
       </div>
-      <div className="flex flex-col items-start md:gap-y-8 gap-y-4">
-        <div className="md:w-8 w-6 text-blue-300 bg-[#dff0fd] shadow shadow-blue-300/20 rounded-full aspect-square flex justify-center items-center">
+      <div className="flex flex-col items-start md:gap-y-8 gap-y-4  md:order-4 order-3">
+        <div className="md:w-8 w-6 text-blue-300 bg-gradient-to-tr from-[#c5e4fc] to-[#f4fafe] shadow shadow-blue-300/20 rounded-full aspect-square flex justify-center items-center">
           <FontAwesomeIcon icon={faClock} className="md:w-3 w-2" />
         </div>
         <div className="md:text-4xl text-2xl font-bold text-[#272767]">

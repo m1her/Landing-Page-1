@@ -10,7 +10,7 @@ interface cardTypes {
 
 export const Card = ({ title, dsc, icon, iconColor }: cardTypes) => {
   return (
-    <div className="bg-white px-12 py-8 rounded relative shadow-[0_0_10px_5px_rgba(39,39,103,0.5)]">
+    <div className="bg-white px-12 py-8 rounded relative z-50 shadow-[0_0_10px_5px_rgba(39,39,103,0.5)]">
       <div className="text-xl font-bold text-[rgb(39,39,103)] mb-6">
         {title}
       </div>

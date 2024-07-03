@@ -20,7 +20,7 @@ export const PriceCard = ({
   priceColor,
 }: PriceCardTypes) => {
   return (
-    <div className="flex h-full min-w-44 flex-grow flex-col bg-white/90 hover:bg-white rounded relative w-full shadow-[0_0_10px_5px_rgba(0,0,0,0.1)] lg:hover:scale-110 hover:scale-105 transition-all duration-300">
+    <div className="z-40 flex h-full min-w-44 flex-grow flex-col bg-white/90 hover:bg-white rounded relative w-full shadow-[0_0_10px_5px_rgba(0,0,0,0.1)] lg:hover:scale-110 hover:scale-105 transition-all duration-300">
       {isContact ? (
         <div className="px-8 py-8 text-center">
           <div className="text-2xl font-bold text-[#141445] w-full mb-8">
