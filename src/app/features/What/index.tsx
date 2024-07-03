@@ -5,9 +5,9 @@ import React from "react";
 
 export const What = () => {
   return (
-    <div className="bg-[#ededf2] relative">
+    <div className="bg-gradient-to-b from-[#ededf2] to-[#f7f7f9] relative">
       <div className="flex flex-col items-center md:gap-y-4 gap-y-2">
-        <div className="md:w-8 w-6 text-purple-500 bg-[#f9f2ff] shadow shadow-indigo-300/20 rounded-full aspect-square flex justify-center items-center">
+        <div className="md:w-8 w-6 text-purple-500 bg-gradient-to-tr from-[#eee0fb] to-[#fcf8fe] shadow shadow-indigo-300/20 rounded-full aspect-square flex justify-center items-center">
           <FontAwesomeIcon icon={faShuffle} className="md:w-3 w-2 -rotate-90" />
         </div>
         <div className="md:text-4xl text-2xl font-bold text-[#272767]">

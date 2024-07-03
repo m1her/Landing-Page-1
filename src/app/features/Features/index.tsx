@@ -11,7 +11,7 @@ import {
 
 export const Features = () => {
   return (
-    <div className="w-full min-h-screen bg-[#1e40af] relative pt-8 pb-28">
+    <div className="w-full min-h-screen bg-gradient-to-b from-[#1e40af] to-[#3758c5] relative pt-8 pb-28">
       <div className="flex flex-col items-center md:gap-y-4 gap-y-2">
         <div className="md:text-4xl text-2xl font-bold text-white">
           Features
@@ -72,6 +72,7 @@ export const Features = () => {
         </div>
       </div>
       <div className="shapedividers_com-2436 w-full h-28 bottom-0 !absolute "></div>
+      <div className="shadow-[inset_0_0_200px_30px_rgba(255,255,255,0.4)] absolute z-10 lg:top-1/2 md:top-1/3 top-[350px] -translate-y-1/2 lg:left-52 md:left-40 left-20 -translate-x-1/2 bg-transparent rounded-full lg:w-1/2 md:w-9/12 w-[500px]  aspect-square"></div>
     </div>
   );
 };
